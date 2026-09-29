@@ -1,0 +1,42 @@
+# Gradle / Kotlin
+.gradle/
+build/
+.kotlin/
+
+# IntelliJ IDEA and other JetBrains IDEs
+.idea/
+.fleet/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.sts4-cache/
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
