@@ -82,9 +82,7 @@ stateDiagram-v2
     IN_REPAIR --> READY_FOR_RETURN : ремонт невозможен
     
     IN_REPAIR --> WAITING_FOR_PARTS : нужны запчасти
-    
     WAITING_FOR_PARTS --> IN_REPAIR : запчасти получены
-    WAITING_FOR_PARTS --> READY_FOR_RETURN : отказ клиента
 
     READY_FOR_PICKUP --> CLOSED : устройство выдано
     READY_FOR_RETURN --> CLOSED : устройство возвращено
